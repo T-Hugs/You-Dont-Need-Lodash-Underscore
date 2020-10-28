@@ -1,4 +1,5 @@
 require('./lib/rules/all.js');
+require('./lib/rules/get.js');
 
 const assert = require('assert');
 const plugin = require('../');
