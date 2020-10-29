@@ -166,7 +166,8 @@
         "ruleName": "is-nan",
         "compatible": true,
         "alternative": "Number.isNaN()",
-        "ES6": true
+        "ES6": true,
+        "fixable": true
     },
     "isNil": {
         "ruleName": "is-nil",
