@@ -87,6 +87,12 @@
         "compatible": false,
         "alternative": "Array.prototype.map()"
     },
+    "max": {
+        "compatible": false,
+        "alternative": "Math.max(...arg)",
+        "fixable": true,
+        "ES6": true
+    },
     "collect": {
         "compatible": false,
         "alternative": "Array.prototype.map()"

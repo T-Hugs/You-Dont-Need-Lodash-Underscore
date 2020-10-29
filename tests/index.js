@@ -1,6 +1,7 @@
 require('./lib/rules/all.js');
 require('./lib/rules/get.js');
 require('./lib/rules/range.js');
+require('./lib/rules/max.js');
 
 const assert = require('assert');
 const plugin = require('../');
