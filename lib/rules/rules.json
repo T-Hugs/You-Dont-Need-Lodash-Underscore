@@ -214,7 +214,8 @@
     "get": {
         "compatible": false,
         "alternative": "optional chaining to get nested values and nullish coalescing operator for fallback values",
-        "ES11": true
+        "ES11": true,
+        "fixable": true
     },
     "split": {
         "compatible": true,
@@ -261,6 +262,12 @@
         "compatible": true,
         "alternative": "[... new Set(arr)]",
         "ES6": true
+    },
+    "range": {
+        "compatible": false,
+        "alternative": "Array.from()",
+        "ES6": true,
+        "fixable": true
     },
     "replace": {
         "compatible": true,
