@@ -8,7 +8,7 @@ const ruleTester = new RuleTester({
   parserOptions: { ecmaVersion: 2018, sourceType: "module" },
 });
 
-ruleTester.run("_.isNaN", rules.isNaN, {
+ruleTester.run("_.isNaN", rules["is-nan"], {
   invalid: [
     {
       code: `console.log(_.isNaN(42))`,

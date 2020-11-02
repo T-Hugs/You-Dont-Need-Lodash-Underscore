@@ -1,7 +1,8 @@
 require('./lib/rules/all.js');
 require('./lib/rules/get.js');
-require('./lib/rules/range.js');
 require('./lib/rules/max.js');
+require('./lib/rules/isNaN.js');
+require('./lib/rules/isFinite.js');
 
 const assert = require('assert');
 const plugin = require('../');

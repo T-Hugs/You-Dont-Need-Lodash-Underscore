@@ -154,7 +154,8 @@
     },
     "isFinite": {
         "compatible": true,
-        "alternative": "Number.isFinite()"
+        "alternative": "Number.isFinite()",
+        "fixable": true
     },
     "isInteger": {
         "ruleName": "is-integer",
@@ -273,8 +274,7 @@
     "range": {
         "compatible": false,
         "alternative": "Array.from()",
-        "ES6": true,
-        "fixable": true
+        "ES6": true
     },
     "replace": {
         "compatible": true,
