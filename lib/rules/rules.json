@@ -180,6 +180,12 @@
         "compatible": true,
         "alternative": "value === null"
     },
+    "isNumber": {
+        "ruleName": "is-number",
+        "compatible": true,
+        "alternative": "typeof value === 'number'",
+        "fixable": true
+    },
     "isUndefined": {
         "ruleName": "is-undefined",
         "compatible": true,
